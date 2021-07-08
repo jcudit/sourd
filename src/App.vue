@@ -1,21 +1,25 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" dark> </v-app-bar>
+    <v-app-bar app color="deep-purple" dark>
+      <v-toolbar-title>sourd</v-toolbar-title>
+    </v-app-bar>
 
     <v-main>
-      <Ingredients />
+      <v-container fluid class="fill-height">
+        <IngredientsGrid />
+      </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Ingredients from "./components/Ingredients";
+import IngredientsGrid from "./components/IngredientsGrid";
 
 export default {
-  name: "App",
+  name: "sourd",
 
   components: {
-    Ingredients,
+    IngredientsGrid,
   },
 
   data: () => ({
