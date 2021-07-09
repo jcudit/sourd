@@ -1,0 +1,6 @@
+{
+	"appId": "com.sourd.app",
+	"appName": "sourd",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
